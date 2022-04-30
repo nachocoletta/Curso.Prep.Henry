@@ -1,0 +1,37 @@
+# Homework: Introducción a Javascript
+
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años.
+ Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+    *Variable 
+    Los datos se almacenan en memoria para ser procesados o utilizados, una variable es un espacio en la memoria de la 
+    computadora al que se puede acceder con un nombre. es como la direccion de una casa, a la casa se puede acceder con el nombre 
+    de la calle y su numero.
+    Al dato almacenado en la variable se puede acceder con su nombre de variable. No importa donde este guardado en la memoria de la
+    computadora
+
+    *Strings
+    Los strings son datos donde se guardan cadenas de caracteres, por ejemplo la palabra "Hola" es un string
+
+    *Funciones
+    Las funciones son trozos de codigo que realizan algun tipo de accion. Y cuando se necesita hacer una accion en el programa se las 
+    llama para que la realicen. 
+    estas reciben argumentos, que son elementos que sirven para realizar esta accion.
+    la funcion puede devolver algun valor que le sirve a quien la llamo para continuar con la ejecucion del programa.
+    
+    *Declaraciones if
+    La declaracion if sirve para ver si se cumple determinada condicion, si una condicion se cumple o no se puede alterar
+    lo que el programa hace (flujo de ejecucion), por ejemplo... if(edad >= 18) return "es mayor de edad"
+    en la declarcion del if se verifica que una persona tenga 18 años o mas y si los tiene se informa que es mayor.
+
+    * Valores booleanos (`true`, `false`)
+    Los valores booleanos pueden tomar 2 valores solamente, true (verdadero) o false (false)
+    estos valores booleanos son muy utiles para realizar comparaciones y asi cambiar el flujo de ejecucion de un programa
+    Incluso son utiles para ser devueltos por funciones para ser evaluados posterioremente por quien han sido invocados.
+
