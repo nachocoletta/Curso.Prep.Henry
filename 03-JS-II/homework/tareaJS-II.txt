@@ -1,0 +1,28 @@
+# Homework: Javascript II
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+* el bucle for sirve para realizar una tarea la cual se debe repetir una determinada cantidad de veces, es recibe un valor de 
+inicializacion, luego mediante una comparacion de este valor inicial con un valor determinado ejecuta un  bloque de codigo
+luego de terminar el bloque de codigo el valor inicializado sufre algun tipo de modificacion (incremento o decremento generalmente)
+en ese momento vuelve a realizar la comparacion entre el valor modificado y el valor determinado, si se cumple la condicion 
+ejecuta nuevamente el codigo, si no se cumple sale del bucle for
+
+* el operador && (and) sirve para verificar si dos valores son true o si dos valores son false,
+por ejemplo si a > 0 &&  b > 0 con a con valor 1 y b con valor 2 devuelve verdadero, si uno del dos fuese menor o igual a 0
+devolveria falso
+
+* el operador || (or) con que uno de los dos valores sea verdaro se cumple la condicion, por ejemplo
+si a > 0 || b > 0 con a valor -1 y b con valor 2 devuelve verdadero ya que uno de los dos valores es verdadero, no es necesario
+que ambos valores sean verdaero para que la expresion devuelva true
+si ninguno de los dos valores es verdadero la expresion devuelve falso
+
+* el operador | (negacion) cambia el valor de la expresion de true a false o de false a true
+por ejemplo !true es igual a false y !false es igual a true, un ejemplo practivo seria evaular una condicion negandola
+a = false;
+if(!a) -> aqui estoy evaluando si a es verdadero, porque estoy cambiando el false por verdadero
