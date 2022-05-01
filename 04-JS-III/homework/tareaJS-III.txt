@@ -1,0 +1,10 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays
+
+Los arrays son colecciones (conjuntos de datos) agrupados en una sola variable, al javsicript no ser un lenguaje fuertemente
+tipificado en los arrays se pueden guardar distintos tipos de datos, en cada una de sus posiciones.
+Los arrays comienzan en la posicion 0 y no en la 1, por ende para acceder al primer elemento de un array llamado arreglo
+se accede con un sub indice, que seria el 0 en este caso
+arreglo[0] seria la forma de acceder a ese elemento
+estos elementos se guardan consecutivamente en la memoria de la computadora
