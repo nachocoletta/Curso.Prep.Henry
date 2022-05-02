@@ -1,0 +1,40 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+    * Objetos
+    Un objeto es una coleccion de datos de distinto tipo, asi como los arrays, que en realidad los arrays son objetos tambien, en los que
+    se accede por un indice numerico.
+    A los objetos se los puede acceder de acuerdo a un indice (o key) que tiene un nombre, a este nombre se lo denomina Propiedad
+
+    * Propiedades
+    Las propiedades seria el nexo entre el objeto y su valor, por ejemplo si tenemos el objeto persona, una propiedad de la persona
+    seria el nombre, y el nombre podria ser "Juan" (que en este caso seria el valor).
+    para acceder al nombre de la persona y sabero deberiamos hacer lo siguiente objeto.propiedad
+    persona.nombre seria igual a Juan, y asi podriamos saber el nombre de la persona
+    
+    * Metodos
+    Los metodos son lo que basicamente se llaman funciones, estos ejecutan un codigo determinado que se utiliza para no repetir
+    codigo (valga la redundancia). 
+    Y estos son los que un objeto podria realizar, por ejempo el objeto auto puede realizar varios metodos... frenar, acelerar, 
+    doblar.
+    se invocan con el parentesis, auto.frenar() haria que el auto frenar
+    
+    * Bucle `for…in`
+    El bucle for .. in se utiliza para recorrer los objetos... es similar al bucle for(;;) que se usa para recorrer los arrays
+    pero la difrencia es que los objetos no contienen indices numericos como los arrays.
+    el bucle for.. in recorre cada clave del objeto.
+    por ejemplo si tenemos un objeto auto que tiene propiedades color y cantidadDePuertas, se utilizaria asi para recorrer 
+    propiedades.
+    for(var clave in auto){
+        console.log(color);
+        console.log(cantidadDePuertas);
+    }
+
+    * Notación de puntos vs notación de corchetes
+    La notacion de puntos es menos flexible que la notacion de corchetes, en notacion de corchetes es como llamar a los elementos
+    de un array auto['color'] para saber el color del auto y de la otra forma seria auto.color
