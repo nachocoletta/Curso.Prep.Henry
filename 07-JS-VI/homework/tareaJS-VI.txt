@@ -1,0 +1,20 @@
+
+* Funciones Callback
+
+Las funciones pueden recibir como parametro otras funciones, por ejemplo si una funcion invoca a otra, lo que devuelve la funcion 
+que es invocada se recibe como parametro de la otra funcion...
+Por ejemplo
+
+function holaAmigo(nombreAmigo){
+    return "Hola " + nombreAmigo;
+}
+
+function saludarAmigo(nombreAmigo, callBack){
+    return callBack(nombreAmigo);
+}
+
+
+saludarAmigo('Pedro', holaAmigo);
+
+La funcion saludarAmigo llamara a holaAmigo y cuando encuentre el 2do argumento que es holaAmigo como recibe una funcion
+va a la funcion y le retorna el string Hola + el nombre recibido por parametro
