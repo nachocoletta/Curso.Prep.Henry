@@ -1,0 +1,14 @@
+
+* `prototype`
+
+Prototype sirve para asignar metodos adicionales a una clase, estos se definen como nombreDeClase.prototype.nombreDelMetodo = funcion(){
+    codigo que ejecuta la funcion }
+En vez de modificar la clase cada vez que se quiere crear un metodo adicional se realiza de la forma anteriormente mencionada 
+
+
+* _Constructors_ (de Clases)
+
+El metodo constructor sirve para crear y darle inicio a un objeto, que se crea a partir de una clase.
+Por ejemplo, si tuvieramos la clase Auto, su constructor seria...
+var nuevoAuto = new Auto(propiedades del auto)
+El objeto nuevoAuto es creado con las propiedades recibidas por parametro 
