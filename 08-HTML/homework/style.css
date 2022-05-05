@@ -1,0 +1,29 @@
+html {
+    background-color: white;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+img {
+    width: 400px;
+}
+
+.divClass {
+ color: green;   
+}
+
+#thirdDiv {
+    background-color: aqua;
+    height: 600px;
+    width: 400px;
+    padding: 50px;
+    border: 5px solid rosybrown;
+    
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
